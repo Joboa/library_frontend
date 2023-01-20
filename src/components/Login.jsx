@@ -31,15 +31,15 @@ const Login = () => {
       })
       .catch((e) => {
         if (e.response) {
-          console.log(e.response.data)
+          console.log(e.response.data);
           // user error
-          if (e.response.data.error) {
-            setIsUserError(true)
-            setUserError(e.response.data.error)
+          if (e.response.data.user_error) {
+            setIsUserError(true);
+            setUserError(e.response.data.user_error);
           }
-          console.log(e)
-        } 
-      })
+          console.log(e);
+        }
+      });
   };
 
   return (
@@ -55,8 +55,8 @@ const Login = () => {
             Log in to your account
           </h3>
 
-           {/* check errors */}
-           {isUserError ? (
+          {/* check errors */}
+          {isUserError ? (
             <p className="text-red-500 text-xs">{userError}</p>
           ) : (
             ""
