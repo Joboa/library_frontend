@@ -71,7 +71,7 @@ const Home = () => {
             eaque odio adipisci magnam fugit voluptatibus dignissimos nulla,
             numquam perspiciatis unde ab voluptates.
           </div> */}
-        </div>
+        {/* </div> */}
       </section>
     </div>
   );
