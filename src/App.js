@@ -12,6 +12,7 @@ function App() {
       <div className="bg-blue-100 w-full h-screen">
         <Navbar />
         <Routes>
+        <Route exact path='/' element={<Home />}></Route>
           <Route exact path='/login' element={<Login />}></Route>
           <Route exact path='/signup' element={<SignUp />}></Route>
           <Route exact path='/users/dashboard' element={<UserDashboard />}></Route>

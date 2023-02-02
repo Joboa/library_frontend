@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* inner div:1 for the logo */}
         <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-500">
           <span className="text-3xl mr-1 pt-1">
-            <BookOutline color={"#93C5FD"} title={""} />
+            <BookOutline color={"#60A5FA"} title={""} />
           </span>
           J-Library
         </div>
